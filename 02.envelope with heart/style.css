@@ -41,6 +41,9 @@ body {
   border-radius: 50%;
 }
 
+/* 
+animation에서는 transform의 값들이 초기화된 상태로 시작한다. (animation 적용 전의 값들을 이어받는것이 아니라.)
+*/
 
 @keyframes heartbeat {
   0% {
