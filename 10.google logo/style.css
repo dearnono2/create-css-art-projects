@@ -45,9 +45,9 @@ body {
 
   /* 특정위치의 모서리 둥글게하기는 아래의 방법들을 사용할 수 있음. (둘 다 결과는 같음.)*/
 
-  /* 방법1. border-radius: 위-왼쪽 / 위-오른쪽 / 아래-오른쪽 / 아래-왼쪽  << 순서 */
+  /* 방법1. border-radius: 위-왼쪽 / 위-오른쪽 / 아래-오른쪽 / 아래-왼쪽  << 순서는 시계방향 */
   /* border-radius: 0 0 15px 0; */
-  
+
   /* 방법2. border-방향-radius: 값; */
   border-bottom-right-radius: 15px;
 }
