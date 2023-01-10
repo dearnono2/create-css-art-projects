@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0; padding: 0;
+}
+
+body {
+  background: #F2F2F2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap {
+  position: relative;
+  width: 150px; height: 150px;
+}
+
+.top {
+  position: absolute;
+  width: 150px; height: 150px;
+  border-top: 30px solid #E33E2B;
+  border-right: 30px solid transparent;
+  border-bottom: 30px solid #2BA14B;
+  border-left: 30px solid #F1B500;
+  border-radius: 50%;
+}
+
+.half {
+  position: absolute;
+  width: 150px; height: 150px;
+  border: 30px solid transparent;
+  border-right: 30px solid #3A7CEC;
+  transform: rotate(45deg);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.line {
+  position: absolute;
+  width: 80px; height: 30px;
+  background-color: #3A7CEC;
+  top: 50%; right: 0;
+  transform: translateY(-50%);
+  /* 
+  모서리의 위치를 자세하게 선택해 둥글게 할 수 있음! 
+  border
+  */
+  border-radius: 0 0 15px 0;
+  /* border-bottom-right-radius: 15px; */
+}
