@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  font-family: verdana;
+  background: #F7F7F7;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px; height: 200px;
+  border-radius: 60px;
+  /* 
+  원형 그라데이션 효과 만들기 radial-gradient
+  (인터넷 익스플로러는 버전 10 이상에서 사용)
+  radial-gradient( shape size at position, color1, color2, ..., color3 )
+  */
+  background: radial-gradient(circle at 30% 107%, #FDF497 5%, #FD5949 45%, #D6249F 60%, #285AEB 90%);
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 140px; height: 140px;
+  background-color: transparent;
+  border: 12px solid white;
+  border-radius: 45px;
+}
+
+.circle-big {
+  width: 60px; height: 60px;
+  background-color: transparent;
+  border: 12px solid white;
+  border-radius: 50%;
+}
+
+.circle-small {
+  width: 15px; height: 15px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 15px; right: 15px;
+}
