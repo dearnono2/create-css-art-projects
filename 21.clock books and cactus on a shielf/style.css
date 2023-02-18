@@ -13,6 +13,7 @@ body {
   position: relative;
 }
 
+/* clock */
 .clock {
   position: absolute;
   left: 30px; top: -135px;
@@ -110,4 +111,41 @@ body {
 }
 
 
+/* books */
+.book-1 {
+  position: absolute;
+  top: -170px; left: 210px;
+  width: 40px; height: 170px;
+  background-color: #9d374f;
+}
 
+.book-1::before, .book-2::before, .book-3::before {
+  position: absolute;
+  content: '';
+  top: 20px; left: 0;
+  width: 100%; height: 20px;
+  background-color: #E9E6C9;
+}
+
+.book-1::after, .book-2::after, .book-3::after {
+  position: absolute;
+  content: '';
+  top: 0; right: 0;
+  width: 50%; height: 100%;
+  background-color: black;
+  opacity: 0.15;
+}
+
+.book-2 {
+  position: absolute;
+  top: -195px; left: 250px;
+  width: 40px; height: 195px;
+  background-color: #e86830;
+}
+
+.book-3 {
+  position: absolute;
+  top: -180px; left: 290px;
+  width: 40px; height: 180px;
+  background-color: #5AA668;
+}
