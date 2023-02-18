@@ -149,3 +149,46 @@ body {
   width: 40px; height: 180px;
   background-color: #5AA668;
 }
+
+/* cactus */
+.cactus {
+  position: absolute;
+  left: 380px; top: -180px;
+  width: 100px; height: 180px;
+}
+
+.pot {
+  position: absolute;
+  width: 100%; height: 50%;
+  bottom: 0;
+}
+
+.pot-top {
+  position: absolute;
+  top: 0; left: -20%;
+  width: 140%; height: 30%;
+  background-color: #a03d12;
+}
+
+.pot-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%; height: 70%;
+  background-color: #ce4f17;
+}
+
+.plant-left {
+  position: absolute;
+  left: 5%; bottom: 50%;
+  width: 45%; height: 35%;
+  background-color: #5AA668;
+  border-radius: 50px 50px 0 0;
+}
+
+.plant-right {
+  position: absolute;
+  right: 5%; bottom: 50%;
+  width: 45%; height: 50%;
+  background-color: #5AA668;
+  border-radius: 50px 50px 0 0;
+}
