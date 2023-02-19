@@ -10,7 +10,7 @@ body {
 .head {
   position: relative;
   width: 215px; height: 405px;
-  background-color: green;
+  /* background-color: green; */
 }
 
 .forehead {
