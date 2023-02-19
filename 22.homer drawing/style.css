@@ -74,3 +74,32 @@ body {
   border-radius: 50%;
   top: 40px; left: 25px;
 }
+
+/* part 2 */
+.f-side1 {
+  position: absolute;
+  width: 140px; height: 60px;
+  background-color: #FED90F;
+  top: 185px; left: 30px;
+}
+
+.f-side2 {
+  position: absolute;
+  width: 40px; height: 60px;
+  background-color: #FED90F;
+  top: 165px; left: 22px;
+  transform: rotate(-11deg);
+  border-left: 1px solid black;
+}
+
+.nose {
+  position: absolute;
+  width: 60px; height: 32px;
+  background-color: #FED90F;
+  top: 175px; left: 130px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
